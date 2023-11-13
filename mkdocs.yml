@@ -1,0 +1,20 @@
+
+# mkdocs.yml
+site_name: HeatStress
+site_url: FILL OUT
+repo_url: https://github.com/ryancgodwin/VL_HeatStress
+nav:
+  - Home: index.md
+  - workflows:
+    - main: HeatStress/main.md
+  - HeatStress:
+    - plotter: HeatStress/plotter.md
+    - data: HeatStress/data.md
+    - evaluate: HeatStress/evaluate.md
+    - predict: HeatStress/predict.md
+    - train: HeatStress/utils.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for any file changes
